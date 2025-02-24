@@ -45,7 +45,7 @@ jobs:
 
     # download, extract, move binary to dir
     - name: Install golang-migrate
-    - run: |
+      run: |
         curl -L https://github.com/golang-migrate/migrate/releases/download/v4.18.2/migrate.linux-amd64.tar.gz | tar xvz
         sudo mv migrate /usr/bin/migrate
         which migrate
