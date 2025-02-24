@@ -1,0 +1,3 @@
+after adding query in any of the .sql files, using the command:
+`make sqlc`
+to generate file at sqlc/xx.sql.go 
